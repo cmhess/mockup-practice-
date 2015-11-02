@@ -1,0 +1,38 @@
+*{box-sizing: border-box;}
+h1 {
+  color: #8468B3;
+  text-align: center;
+}
+header li {
+  float: left;
+}
+header a {
+  display: block;
+  width: 12em;
+  list-style-type: none;
+  background-color: #8468B3;
+  border: 1px solid black;
+  text-align: center;
+}
+article {
+  background-color: #E1E4E9;
+}
+a: visited{
+  color: white;
+  text-decoration: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+aside {
+  background-color: #C0B2D5;
+  
+}
+p {
+  font-family: ""Palatino Linotype", "Book Antiqua", Palatino, serif";
+  color: black;
+  padding: 2em 45em 5em 28em;
+  font-size: 64%;
+  text-align-last: center;
+}
