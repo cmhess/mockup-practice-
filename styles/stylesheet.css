@@ -2,22 +2,33 @@
 h1 {
   color: #8468B3;
   text-align: center;
+  padding: 1em;
 }
-header li {
-  float: left;
+header {
+  background-color: white;
+  margin: 0 0 1em 0;
+}
+header nav li {
+  display: inline;
+  background-color: #8468B3;
+  width: 100%;
+  margin: inherit;
 }
 header a {
-  display: block;
-  width: 12em;
-  list-style-type: none;
-  background-color: #8468B3;
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   text-align: center;
+}
+aside {
+  background-color: #C0B2D5;
+  float: left;
+  width: 20%;
 }
 article {
   background-color: #E1E4E9;
+  width: 60%;
 }
-a: visited{
+a: visited {
   color: white;
   text-decoration: none;
 }
@@ -25,14 +36,25 @@ a {
   color: white;
   text-decoration: none;
 }
-aside {
-  background-color: #C0B2D5;
-  
-}
 p {
   font-family: ""Palatino Linotype", "Book Antiqua", Palatino, serif";
   color: black;
-  padding: 2em 45em 5em 28em;
+  padding: 2em 4em 5em 5em;
   font-size: 64%;
   text-align-last: center;
 }
+aside a {
+  text-align: center;
+  padding: 1em;
+}
+footer {
+  clear: both;
+}
+footer nav li {
+  display: inline;
+  padding: 2em 1em 2em 1em 
+}
+footer img {
+  max-width: 2%;
+}
+
