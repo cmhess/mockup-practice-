@@ -124,10 +124,12 @@ aside {
   padding: 20px;
   color: white;
 }
-aside p {
+aside li {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 150%;
   font-size: .9rem;
+  text-align: center;
+  padding: 1.5em;
 }
 
 
